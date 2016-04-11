@@ -2,7 +2,6 @@ var express = require("express"),
   app = express(),
   bodyParser = require("body-parser"),
   morgan = require("morgan"),
-  User = require("./models/user.js"),
   apiRouter = require("./routers/apiRouter.js"),
   port = process.env.PORT || 8080;
 

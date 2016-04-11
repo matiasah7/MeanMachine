@@ -1,5 +1,4 @@
 var express = require("express"),
-  bodyParser = require("body-parser"),
   mongoose = require("mongoose"),
   User = require("../models/user.js"),
   jwt = require("jsonwebtoken"),
@@ -102,5 +101,9 @@ apiRouter.route("/users/:user_id")
       res.json({ message: "Successfully deleted"});
     });
   });
+
+apiRouter.get("/me", function(req, res){
+  res.send(req.decoded);
+});
 
 module.exports = apiRouter;
