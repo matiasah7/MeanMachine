@@ -1,6 +1,4 @@
 angular.module('routerRoutes', ['ngRoute'])
-
-// configure our routes
 .config(function($routeProvider, $locationProvider) {
     $routeProvider
 
