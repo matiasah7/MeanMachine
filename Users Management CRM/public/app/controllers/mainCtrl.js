@@ -8,7 +8,7 @@ angular.module('mainCtrl', [])
       vm.loggedIn = Auth.isLoggedIn();
 
       Auth.getUser()
-        .success(function(data){
+        .then(function(data){
           vm.user = data;
         });
     });
