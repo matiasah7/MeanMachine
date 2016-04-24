@@ -29,7 +29,6 @@ module.exports = function(app, express) {
                         name: user.name,
                         username: user.username
                     }, superSecret, {
-                        expiresInMinutes: 1440
                     });
                     res.json({
                         success: true,
