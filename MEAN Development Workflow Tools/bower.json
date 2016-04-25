@@ -1,0 +1,24 @@
+{
+  "name": "workflow",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "matiasah7 <abalheviamatias@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/matiasah7/MeanMachine",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "angular-animate": "^1.5.5"
+  }
+}
